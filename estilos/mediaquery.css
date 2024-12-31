@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    
+    main > section > div > h1 {
+        padding: 30px;
+        font-size: 3em;
+    }
+
+    main > section > div > p {
+        font-size: 1.3em;
+    }
+
+    button > a.link-button {
+        font-size: 2em;
+    }
+    
+    main > div > section > h2 {
+        display: block;
+        margin: auto;
+        text-align: center;
+        width: 750px;
+        padding-top: 25px;
+        font-size: 3em;
+    }
+
+    div#fundo-2 > section {
+        font-size: 1em;
+        line-height: 1.6em;
+    }
+
+    main > div > section > #fundo-3 {
+        width: 700px;
+    }
+    main > div > section > p {
+        text-align: center;
+        padding: 25px;
+        font-size: 1.3em;
+    }
+
+    main > div > section > div > h3 {
+        font-size: 1.8em;
+        padding-top: 30px;
+    }
+
+    main > div > section > div > ul > li {
+        width: 600px;
+        margin-left: 50px;
+        font-size: 1.1em;
+        
+    }
+
+    main > div > #fundo-4 {
+        background-color: white;
+        width: 700px;
+        height: 600px;
+    }
+
+    main > div > div > section > h2 {
+        font-size: 2.3em;
+        padding-right: 80px;
+    }
+
+    div#fundo-4 > section {
+        width: 700px;
+        height: 830px;
+        font-size: 1.1em;
+        line-height: 1.9em;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    div#fundo-5 {
+        background-color: #7616d4;
+        width: 700px;
+        height: 830px;
+    }
+
+    div#fundo-5 > section > h3 {
+        font-size: 1.8em;
+}
+
+div#fundo-5 > section {
+    font-size: 1.1em;
+    line-height: 1.9em;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+ 
+}

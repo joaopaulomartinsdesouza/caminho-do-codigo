@@ -1,7 +1,30 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) {
-    
+
+    header > span#menu-hamburguer {
+        display: none;
+    }
+
+    header > menu {
+        display: block;
+    }
+
+    header > menu > ul > li {
+        display: inline-block;
+        background-color: #b12eb1;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 5px;
+        cursor: pointer;
+    }
+
+    header > menu > ul > li:hover {
+        background-color: #7616d4;
+        transition: .3s;
+    }
+
     main > section > div > h1 {
         padding: 30px;
         font-size: 3em;
@@ -13,6 +36,20 @@
 
     button > a.link-button {
         font-size: 2em;
+    }
+
+    button:hover {
+        background-color: #7616d4;
+        transition: .3s;
+    } 
+
+    #button2 {
+        padding: 10px;
+        font-size: 1.3em;
+    }
+
+    #button2:hover {
+        background-color: #b12eb1;
     }
     
     main > div > section > h2 {
@@ -86,6 +123,45 @@ div#fundo-5 > section {
     padding-top: 20px;
     padding-left: 30px;
 }
+}
 
- 
+@media screen and (min-width: 992px) {
+
+    main > section > div#fundo-sobreamento {
+        background-color: rgba(0, 0, 0, 0.829);
+        width: 100vw;
+        height: 100vh;
+    }
+
+    header > img {
+        display: block;
+        margin: auto;
+        width: 30%;
+    }
+    
+    main > section > div > h1 {
+        padding: 30px;
+        font-size: 3.5em;
+        width: 900px;
+        display: block;
+        margin: auto;
+    }
+
+    main > section > div > p {
+        font-size: 1.3em;
+        width: 900px;
+        display: block;
+        margin: auto;
+    }
+
+    div#fundo-2 > section {
+        font-size: 1em;
+        line-height: 1.6em;
+        width: 900px;
+        display: block;
+        margin: auto;
+
+    
+
+}
 }

@@ -9,6 +9,7 @@
 #8b38d7
 #cf92ff
 #dd5858
+#b12eb1
 */
 
 
@@ -23,9 +24,23 @@ body, html {
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    background-color: #b12eb1;
+    background-color: #140028;
     overflow: hidden;
     overflow-y: scroll;
+}
+
+header > section { 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px; 
+}
+
+header section > h1 {
+    font-family: "Poppins", serif;
+    font-size: 1.4em;
+    color: white;
+    text-align: center;
 }
 
 header > img {
@@ -34,7 +49,18 @@ header > img {
 
 header > menu {
     display: none;
-   font-size: 20px;
+   font-size: 18px;
+}
+
+header > menu >ul > li:hover {
+    background-color: #b12eb1;
+    cursor: pointer;
+    transition: .2s;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 header > span#menu-hamburguer {
@@ -45,19 +71,24 @@ header > span#menu-hamburguer {
     cursor: pointer;
     padding-left: 10px;
     font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 10px;
+    
 }
 
 header > menu ul > li {
-    border-top: 1px solid black;
+    border-top: 1px solid rgb(255, 255, 255);
     padding: 10px;
     color: white;
     font-weight: 600;
 }
 
-header > img {
+header section > img {
     display: block;
     margin: auto;
-    width: 50%;
+    width: 20%;
 }
 
 
@@ -116,6 +147,16 @@ button > a.link-button {
     text-decoration: none;
     color: white;
     font-size: 1.3em;
+}
+
+button:hover {
+    background-color: #7616d4;
+    transition: .3s;
+}
+
+#button2:hover {
+    background-color: #b12eb1;
+    transition: .3s;
 }
 
 #fundo-2 {

@@ -8,8 +8,8 @@
     box-sizing: border-box;
     font-family: "Poppins", serif;
 }
-header {
-    
+header > menu {
+    display: none;
 }
 
 body, html {
@@ -47,7 +47,7 @@ header > span#menu-hamburguer {
     width: 100vw;
     display: flex;
     justify-content: flex-end;
-    padding: 5px;
+   padding-right: 10px;
     color: white;
     font-size: 30px
     
@@ -104,6 +104,7 @@ main > h1 {
     text-align: center;
     margin-bottom: 10px;
     margin-top: 10px;
+    padding: 10px;
 }
 
 main > p {

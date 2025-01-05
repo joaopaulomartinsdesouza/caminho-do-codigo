@@ -114,6 +114,11 @@ main > p {
     margin-bottom: 10px;
 }
 
+.link-ver-projeto {
+    color: white;
+    text-decoration: none;
+}
+
 .button-ler-mais {
     background-color: #7616d4;
     color: white;

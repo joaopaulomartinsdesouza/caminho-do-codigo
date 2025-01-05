@@ -143,11 +143,9 @@ div#fundo-5 > section {
         width: 100vw;
         height: 100vh;
     }
-
-    header > img {
-        display: block;
-        margin: auto;
-        width: 30%;
+    
+    #logo {
+        width: 8vw;
     }
 
     header > section > h1 {
@@ -181,6 +179,65 @@ div#fundo-5 > section {
         margin: auto;
 
     
+
+
+
+
+
+        
+    
+            body {
+                background-color: #7616d4;
+            }
+        
+            #logo {
+                width: 8vw;
+            }
+        
+            main {
+                background-color: white;
+                height: 100%;  
+            }
+            
+            header > span#menu-hamburguer {
+                display: none;
+            }
+        
+            #logo {
+                width: 10vw;
+            }
+        
+            header > section > h1 {
+                font-size: 4em;
+            }
+        
+            .formatacaologo {
+                font-size: 1.5em;
+            }    
+        
+            header > menu {
+                display: block;
+                padding-left: 10px;
+                padding-bottom: 10px;
+            }
+        
+            header > menu > ul > li {
+                display: inline-block; 
+                border: none;
+            }
+        
+            main {
+                width: 800px;
+                display: block;
+                margin: auto;
+            }
+        
+            
+        main> section > img {
+            width: 40vw;
+            padding-top: 10px;
+        }
+        }
 
 }
 }

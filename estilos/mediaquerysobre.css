@@ -42,15 +42,12 @@ main> section > img {
 }
 }
 
-@media screen and (min-width: 992px) { /*TABLET*/
+@media screen and (min-width: 992px) { /*TELAS MAIORES*/
     
     body {
         background-color: #7616d4;
     }
 
-    #logo {
-        width: 8vw;
-    }
 
     main {
         background-color: white;
@@ -61,8 +58,8 @@ main> section > img {
         display: none;
     }
 
-    #logo {
-        width: 10vw;
+    main > section > img#logo {
+        width: 100%;
     }
 
     header > section > h1 {

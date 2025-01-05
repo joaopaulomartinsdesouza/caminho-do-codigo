@@ -1,13 +1,24 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) { /*TABLET*/
 
     header > span#menu-hamburguer {
         display: none;
     }
 
+    #logo {
+        width: 10vw;
+    }
+
+    header > section img {
+        margin: 0px;
+        padding: 20px;
+    }
+
     header > menu {
         display: block;
+        padding-left: 10px;
+        padding-bottom: 10px;
     }
 
     header > menu > ul > li {
@@ -125,7 +136,7 @@ div#fundo-5 > section {
 }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) { /*TELAS MAIORES*/
 
     main > section > div#fundo-sobreamento {
         background-color: rgba(0, 0, 0, 0.829);
@@ -137,6 +148,14 @@ div#fundo-5 > section {
         display: block;
         margin: auto;
         width: 30%;
+    }
+
+    header > section > h1 {
+        font-size: 4em;
+    }
+
+    .formatacaologo {
+        font-size: 1.5em;
     }
     
     main > section > div > h1 {

@@ -36,6 +36,10 @@ header > section {
     padding: 15px; 
 }
 
+header > section > img  {
+    width: 20%;
+}
+
 .formatacaologo {
     font-size: 30px;
 }
